@@ -9,3 +9,7 @@ I also had trouble with the Arduino sketch he linked at https://www.cs.hs-rm.de/
 So instead, I started with a basic sketch copied from here - https://www.instructables.com/MQTT-Bare-Minimum-Sketch/   and customized (if you can call it that) to make it work for me.
 
 Hopefully this will help you make your cheap, dumb smoke alarms smart and connect to your Home Assistant
+
+Building is pretty straight-forward. Upload the sketch to the ESP8266 and add the sensor: section to your Home Assistant configuration.yaml file. Before you get too far, power up the ESP on its own and see if you get the state change in Home Assistant. Then you need to find which pins on your Smoke Alarm IC/processor is the Vss, Vdd, I/O. I've included a couple in the examples. Wire everything up as the schematic shows. 
+
+Surprisingly, one of the more difficult parts for me was to try to stuff everything into the smoke alarm without covering the vent areas of the smoke sensor. You may want to take extra time out and plan this a little more. You may have some little open areas around the battery enclosure you can tuck the voltage regulator and the transistor/resistor/diode bundle. Be sure to not cover the the vents to the smoke sensor.
