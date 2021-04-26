@@ -11,8 +11,6 @@
 
 #define in_topic "/smoke/in"
 #define out_topic "/smoke/out"
-// Replace by 2 if you aren't enable to use Serial Monitor... Don't forget to Rewire R1 to GPIO2!
-#define in_led 0
 
 WiFiClient espClient;
 PubSubClient client;
