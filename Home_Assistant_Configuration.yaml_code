@@ -1,0 +1,5 @@
+sensor:
+  - platform: mqtt
+    name: "Master Bedroom Smoke"
+    state_topic: "/smoke/out"
+    expire_after: 30
