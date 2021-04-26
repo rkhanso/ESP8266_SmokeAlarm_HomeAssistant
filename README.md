@@ -1,6 +1,6 @@
 # ESP8266_SmokeAlarm_HomeAssistant
 
-I found this idea from Martin Ger on YouTube here - https://www.youtube.com/watch?v=7ZcnPoZn_O0
+I found this idea from Martin Ger at this webpage - https://www.esp8266.com/viewtopic.php?t=14315  and corresponding video on YouTube here - https://www.youtube.com/watch?v=7ZcnPoZn_O0
 
 Following his directions, I quickly found that the Kidde Smoke Detector I have (Model i9040) does not have the same pinout as his example in the video.
 
