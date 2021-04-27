@@ -15,6 +15,8 @@ There are some additional notes at the bottom of the Arduino Sketch page - showi
 
 Also, don't forget to give each smoke alarm a different IP address in the Arduino Sketch. Duplicate IPs will give you headaches.
 
+
+
 Files included above:
 
 • ESP8266_Smoke_Alarm_MyUpdated_Schematic.jpg - the schematic I used in my Smoke Alarm
