@@ -21,10 +21,17 @@ Also, don't forget to give each smoke alarm a different IP address in the Arduin
 
 Files included:
 ESP8266_Smoke_Alarm_MyUpdated_Schematic.jpg          -  the schematic I used in my Smoke Alarm
+
 ESP8266_Smoke_Alarm_Original_Schematic.jpg           -  the schematic that Martin Ger shows on the YouTube video
+
 ESP8266_smoke_detector_FinishedProduct.pdf           -  shows how I stuffed everything in the Smoke Alarm
+
 ESP_Smoke Alarm Original Schematic from Youtube.jpg  -  the actual screenshot of Martin Ger's schematic
+
 Electronics Parts I used for ESP8266 Smoke Alarm.txt -  where I bought some of my parts and the list of what I used
+
 Home_Assistant_Configuration.yaml_code               -  what you need to add to Home Assistant configuration.yaml
+
 README.md                                            -  this file
+
 esp8266_sketch                                       -  the sketch I used to put on the ESP8266 (note: if you have multiple detectors, a line needs to be changed for each)
