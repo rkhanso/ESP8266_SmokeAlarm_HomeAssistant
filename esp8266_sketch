@@ -80,3 +80,30 @@ void loop() {
   }
   delay(500); // delay to send MQTT message before repeating.
 }
+
+
+
+Do not copy this below for the sketch - additional info you may need to know...
+
+Note  --  
+If you have multiple smoke alarms in the home, you need to change Arduino sketch for each alarm. In the topic lines (there are two of them), you'll need to give each detector a different topic name so that Home Assistant / MQTT can tell the difference and let you know which alarm is activated.
+
+#define in_topic "/Masterbed/in"
+#define out_topic "/Masterbed/out"
+
+#define in_topic "/2ndbed/in"
+#define out_topic "/2ndbed/out"
+
+etc.
+
+
+And in the configuration.yaml, you need a section for each of the alarms:
+sensor:
+  - platform: mqtt
+    name: "Smoke - Master Bedroom"
+    state_topic: "/Masterbed/out"
+    expire_after: 30
+  - platform: mqtt
+    name: "Smoke - Second Bedroom"
+    state_topic: "/2ndbed/out"
+    expire_after: 30
