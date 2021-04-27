@@ -9,8 +9,8 @@
 #define mqtt_user "yourmqttuser" // Use the MQTT user you set up in Home Assistant
 #define mqtt_password "yourmqttpass" // Use the MQTT password you set up in Home Assistant
 
-#define in_topic "/smoke/in"
-#define out_topic "/smoke/out"
+#define in_topic "/smoke/in"  // Note - change the SMOKE part of this to differentiate each smoke alarm in the home ->
+#define out_topic "/smoke/out"  // You need different topics for each of the smoke alarms. 
 
 WiFiClient espClient;
 PubSubClient client;
