@@ -20,6 +20,7 @@ Also, don't forget to give each smoke alarm a different IP address in the Arduin
 
 
 Files included:
+
 ESP8266_Smoke_Alarm_MyUpdated_Schematic.jpg          -  the schematic I used in my Smoke Alarm
 
 ESP8266_Smoke_Alarm_Original_Schematic.jpg           -  the schematic that Martin Ger shows on the YouTube video
