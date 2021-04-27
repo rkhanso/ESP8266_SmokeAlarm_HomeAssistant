@@ -1,7 +1,7 @@
 Parts I used:
 3.3v DC regulators -  https://www.amazon.com/gp/product/B07CP4P5XJ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 
-D1 Mini -  https://www.amazon.com/gp/product/B08C7FYM5T/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1
+ESP8266 D1 Mini -  https://www.amazon.com/gp/product/B08C7FYM5T/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1
 
 Smoke Alarm -  https://www.menards.com/main/electrical/fire-safety/smoke-detectors/smart-electrician-reg-battery-powered-ionization-smoke-alarm/i9040/p-1444446008888.htm
 
