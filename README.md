@@ -6,7 +6,7 @@ Following his directions, I quickly found that the Kidde Smoke Detector I have (
 
 I also had trouble with the Arduino sketch he linked at https://www.cs.hs-rm.de/~gergelei/SmokeDetector.ino with errors found when compiling. I'm an Arduino software novice on a good day. So the trouble I had could certainly have been my lack of knowledge. But no matter what I tried, I could not get that sketch to work.
 
-So instead, I started with a basic sketch copied from here - https://www.instructables.com/MQTT-Bare-Minimum-Sketch/   and customized (if you can call it that) to make it work for me. See my sketch in the list of files above.
+So instead, I started with a basic sketch copied from here - https://www.instructables.com/MQTT-Bare-Minimum-Sketch/   and customized (if you can call it that) to make it work for me. See my esp8266_sketch in the list of files above.
 
 Hopefully this will help you make your cheap, dumb smoke alarms smart and connect to your Home Assistant
 
