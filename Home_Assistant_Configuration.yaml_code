@@ -1,7 +1,7 @@
 sensor:
   - platform: mqtt
     name: "Smoke - Master Bedroom"
-    state_topic: "/smoke/out"
+    state_topic: "/Masterbed/out"
     expire_after: 30
   - platform: mqtt
     name: "Smoke - Second Bedroom"
