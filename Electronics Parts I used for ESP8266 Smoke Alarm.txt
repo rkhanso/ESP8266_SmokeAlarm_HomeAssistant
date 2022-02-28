@@ -3,7 +3,7 @@ Parts I used:
 
 ESP8266 D1 Mini -  https://www.amazon.com/gp/product/B08C7FYM5T/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1
 
-Smoke Alarm -  https://www.menards.com/main/electrical/fire-safety/smoke-detectors/smart-electrician-reg-battery-powered-ionization-smoke-alarm/i9040/p-1444446008888.htm
+Smoke Alarm -  https://www.menards.com/main/electrical/fire-safety/smoke-detectors/smart-electrician-reg-battery-powered-ionization-smoke-alarm/i9040/p-1444446008888.html
 
 Spare electronics parts I had around the house. 
 1N4148 diode
